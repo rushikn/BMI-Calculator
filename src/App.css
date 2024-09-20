@@ -1,0 +1,134 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f5f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: #1a202c;
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #007BFF;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+
+label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.btn-outline {
+  background-color: #fff;
+  color: #007BFF;
+  border: 1px solid #007BFF;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button.btn-outline:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+
+.center {
+  margin-top: 40px;
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.center h1 {
+  font-size: 36px;
+  color: #1a202c;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.center p {
+  font-size: 18px;
+  color: #6b7280;
+}
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+  .container {
+    padding: 30px 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .center h1 {
+    font-size: 28px;
+  }
+
+  .center p {
+    font-size: 16px;
+  }
+}
